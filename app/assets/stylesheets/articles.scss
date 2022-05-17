@@ -1,0 +1,18 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400&display=swap');
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+}
+
+p a {
+  color: #337ab7;
+  font-size: 1.7em;
+}
+
+p:first-child {
+  margin-top: 3em;
+}

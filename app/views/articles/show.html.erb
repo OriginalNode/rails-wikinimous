@@ -1,0 +1,10 @@
+<h1><%= @article.title %></h1><%= link_to 'modify', edit_article_path(@article) %>
+<%= link_to article_path(@article), method: :delete, data: { confirm: "Are you sure?" } do %>
+  <i class="fa-solid fa-trash"></i>
+<% end %>
+<%= link_to articles_path do %>
+  <i class="fa-solid fa-people-pulling"></i>
+<% end %>
+
+
+<p><%= @article.content %></p>
